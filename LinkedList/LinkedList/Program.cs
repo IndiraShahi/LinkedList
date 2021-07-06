@@ -6,7 +6,13 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome!");
+            List list = new List();
+
+            list.AddToEnd(56);
+            list.AddToEnd(30);
+            list.AddToEnd(70);
+            list.Display();
         }
     }
 }
