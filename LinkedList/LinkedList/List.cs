@@ -9,10 +9,10 @@ namespace LinkedList
         public Node head;
 
         /// <summary>
-        /// Method to add data to the end of the LinkedList
+        /// Add data to the start of the LinkedList
         /// </summary>
         /// <param name="data"></param>
-        public void AddToEnd(int data)
+        public void AddToBeginning(int data)
         {
             Node node = new Node(data);
 

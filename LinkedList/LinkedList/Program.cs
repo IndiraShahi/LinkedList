@@ -9,9 +9,9 @@ namespace LinkedList
             Console.WriteLine("Welcome!");
             List list = new List();
 
-            list.AddToEnd(56);
-            list.AddToEnd(30);
-            list.AddToEnd(70);
+            list.AddToBeginning(56);
+            list.AddToBeginning(30);
+            list.AddToBeginning(70);
             list.Display();
         }
     }
