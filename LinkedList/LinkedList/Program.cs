@@ -10,8 +10,8 @@ namespace LinkedList
             List list = new List();
 
             list.AddToEnd(56);
-            list.AddToEnd(30);
             list.AddToEnd(70);
+            list.InsertAtParticularPosition(2, 30);
             list.Display();
         }
     }
