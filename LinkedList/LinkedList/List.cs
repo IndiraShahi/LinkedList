@@ -8,11 +8,7 @@ namespace LinkedList
     {
         public Node head;
 
-        /// <summary>
-        /// Add data to the start of the LinkedList
-        /// </summary>
-        /// <param name="data"></param>
-        public void AddToBeginning(int data)
+        public void AddToEnd(int data)
         {
             Node node = new Node(data);
 
@@ -28,9 +24,7 @@ namespace LinkedList
             }
         }
 
-        /// <summary>
-        /// Method to display data present in the LinkedList
-        /// </summary>
+        
         public void Display()
         {
             Node temp = this.head;
