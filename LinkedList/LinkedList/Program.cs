@@ -14,6 +14,7 @@ namespace LinkedListProblem
             list.AddToEnd(56);
             list.AddToEnd(30);
             list.AddToEnd(70);
+            list.InsertAtParticularPosition(3, 40);
             list.Display();
         }
     }
